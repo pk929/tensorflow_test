@@ -1,0 +1,6 @@
+model_checkpoint_path: "/python/tensorflow_test/a03_short_text/data/model/-700"
+all_model_checkpoint_paths: "/python/tensorflow_test/a03_short_text/data/model/-300"
+all_model_checkpoint_paths: "/python/tensorflow_test/a03_short_text/data/model/-400"
+all_model_checkpoint_paths: "/python/tensorflow_test/a03_short_text/data/model/-500"
+all_model_checkpoint_paths: "/python/tensorflow_test/a03_short_text/data/model/-600"
+all_model_checkpoint_paths: "/python/tensorflow_test/a03_short_text/data/model/-700"

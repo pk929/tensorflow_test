@@ -1,0 +1,140 @@
+2021-01-28 01:32:56,178 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 01:32:56.177991
+
+
+
+2021-01-28 01:32:58,925 - main.py[line:22] - INFO: 整理训练数据
+2021-01-28 01:33:35,837 - main.py[line:27] - INFO: word_limit_size=50
+2021-01-28 01:33:35,837 - main.py[line:28] - INFO: 整理训练数据时间:36911毫秒;36秒
+2021-01-28 01:33:35,837 - main.py[line:31] - INFO: 生成词向量文件
+2021-01-28 01:34:20,703 - main.py[line:36] - INFO: 生成词向量文件时间:44866毫秒;44秒
+2021-01-28 01:34:20,703 - main.py[line:39] - INFO: 训练模型
+2021-01-28 02:27:23,201 - main.py[line:44] - INFO: 训练模型时间:3182497毫秒;3182秒
+2021-01-28 02:49:46,629 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 02:49:46.629105
+
+
+
+2021-01-28 02:49:49,335 - main.py[line:64] - INFO: 准确率统计
+2021-01-28 02:49:49,335 - main.py[line:65] - INFO: sequenceLength=200
+2021-01-28 02:59:05,573 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 02:59:05.573865
+
+
+
+2021-01-28 02:59:08,257 - main.py[line:64] - INFO: 准确率统计
+2021-01-28 02:59:08,257 - main.py[line:65] - INFO: sequenceLength=200
+2021-01-28 03:01:40,441 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 03:01:40.441076
+
+
+
+2021-01-28 03:01:43,155 - main.py[line:64] - INFO: 准确率统计
+2021-01-28 03:01:43,155 - main.py[line:65] - INFO: sequenceLength=200
+2021-01-28 03:31:22,855 - main.py[line:71] - INFO: 成功数：23357 总数：24000 准确率:0.9732
+2021-01-28 03:31:22,855 - main.py[line:72] - INFO: 准确率统计时间:1779700毫秒;1779秒
+2021-01-28 03:31:22,855 - main.py[line:73] - INFO: 
+
+
+2021-01-28 05:24:32,312 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 05:24:32.311993
+
+
+
+2021-01-28 05:24:34,999 - main.py[line:52] - INFO: 整理训练数据
+2021-01-28 05:25:11,615 - main.py[line:57] - INFO: word_limit_size=50
+2021-01-28 05:25:11,616 - main.py[line:58] - INFO: 整理训练数据时间:36616毫秒;36秒
+2021-01-28 05:25:11,616 - main.py[line:59] - INFO: 
+
+
+2021-01-28 05:25:11,616 - main.py[line:70] - INFO: 生成词向量文件
+2021-01-28 05:25:11,616 - main.py[line:72] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-01-28 05:25:56,210 - main.py[line:77] - INFO: 生成词向量文件时间:44594毫秒;44秒
+2021-01-28 05:25:56,211 - main.py[line:78] - INFO: 
+
+
+2021-01-28 05:25:56,211 - main.py[line:81] - INFO: 训练模型
+2021-01-28 06:17:44,265 - main.py[line:86] - INFO: 训练模型时间:3108055毫秒;3108秒
+2021-01-28 06:17:44,266 - main.py[line:87] - INFO: 
+
+
+2021-01-28 06:17:44,266 - main.py[line:92] - INFO: 准确率统计
+2021-01-28 06:17:44,266 - main.py[line:93] - INFO: sequenceLength=200
+2021-01-28 06:46:16,461 - main.py[line:99] - INFO: 成功数：23558 总数：24000 准确率:0.9816
+2021-01-28 06:46:16,462 - main.py[line:100] - INFO: 准确率统计时间:1712195毫秒;1712秒
+2021-01-28 06:46:16,462 - main.py[line:101] - INFO: 
+
+
+2021-01-28 08:26:01,009 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 08:26:01.009921
+
+
+
+2021-01-28 08:26:03,699 - main.py[line:67] - INFO: 生成词向量文件
+2021-01-28 08:26:03,699 - main.py[line:68] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-01-28 08:26:39,859 - main.py[line:73] - INFO: 生成词向量文件时间:36159毫秒;36秒
+2021-01-28 08:26:39,859 - main.py[line:74] - INFO: 
+
+
+2021-01-28 08:26:39,859 - main.py[line:78] - INFO: 训练模型
+2021-01-28 08:27:46,403 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 08:27:46.403104
+
+
+
+2021-01-28 08:27:49,122 - main.py[line:67] - INFO: 生成词向量文件
+2021-01-28 08:27:49,122 - main.py[line:68] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-01-28 08:28:25,300 - main.py[line:73] - INFO: 生成词向量文件时间:36178毫秒;36秒
+2021-01-28 08:28:25,300 - main.py[line:74] - INFO: 
+
+
+2021-01-28 08:28:25,300 - main.py[line:78] - INFO: 训练模型
+2021-01-28 08:53:53,270 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 08:53:53.270785
+
+
+
+2021-01-28 08:53:55,960 - main.py[line:88] - INFO: 准确率统计
+2021-01-28 08:53:55,961 - main.py[line:89] - INFO: sequenceLength=50
+2021-01-28 08:55:34,730 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 08:55:34.730897
+
+
+
+2021-01-28 08:55:37,431 - main.py[line:88] - INFO: 准确率统计
+2021-01-28 08:55:37,431 - main.py[line:89] - INFO: sequenceLength=50
+2021-01-28 08:58:58,516 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 08:58:58.516375
+
+
+
+2021-01-28 08:59:01,211 - main.py[line:88] - INFO: 准确率统计
+2021-01-28 08:59:01,211 - main.py[line:89] - INFO: sequenceLength=50
+2021-01-28 17:44:52,780 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-01-28 17:44:52.780872
+
+
+
+2021-01-28 17:44:59,109 - main.py[line:48] - INFO: 整理训练数据

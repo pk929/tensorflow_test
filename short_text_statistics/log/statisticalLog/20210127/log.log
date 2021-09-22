@@ -1,0 +1,112 @@
+2021-01-27 07:02:51,914 - /python/tensorflow_test/short_text_statistics/logger.py[line:71] - INFO: yayayayayaya
+2021-01-27 07:03:28,218 - main.py[line:21] - INFO: 1611702172.2073908
+2021-01-27 07:03:28,218 - main.py[line:22] - INFO: 1611702208.218354
+2021-01-27 07:03:28,218 - main.py[line:23] - INFO: 36
+2021-01-27 07:03:28,218 - main.py[line:24] - INFO: 36011
+2021-01-27 07:04:39,398 - /python/tensorflow_test/short_text_statistics/logger.py[line:71] - INFO: yayayayayaya
+2021-01-27 07:05:16,170 - main.py[line:22] - INFO: 整理训练数据时间:36477毫秒
+2021-01-27 07:07:42,200 - main.py[line:22] - INFO: 整理训练数据时间:36410毫秒
+2021-01-27 07:09:03,605 - /python/tensorflow_test/short_text_statistics/logger.py[line:72] - INFO: 
+
+
+		新启动运行
+
+
+
+2021-01-27 07:09:40,661 - main.py[line:22] - INFO: 整理训练数据时间:36763毫秒
+2021-01-27 07:11:08,610 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 07:11:08.610196
+
+
+
+2021-01-27 07:11:45,409 - main.py[line:22] - INFO: 整理训练数据时间:36507毫秒
+2021-01-27 07:13:51,886 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 07:13:51.886463
+
+
+
+2021-01-27 07:14:28,161 - main.py[line:23] - INFO: 整理训练数据时间:35981毫秒;35秒
+2021-01-27 07:18:48,090 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 07:18:48.090247
+
+
+
+2021-01-27 07:19:24,786 - main.py[line:25] - INFO: word_limit_size=50
+2021-01-27 07:19:24,786 - main.py[line:26] - INFO: 整理训练数据时间:36402毫秒;36秒
+2021-01-27 07:21:09,282 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 07:21:09.282507
+
+
+
+2021-01-27 07:21:09,578 - main.py[line:20] - INFO: 整理训练数据
+2021-01-27 07:21:45,864 - main.py[line:27] - INFO: word_limit_size=50
+2021-01-27 07:21:45,865 - main.py[line:28] - INFO: 整理训练数据时间:36286毫秒;36秒
+2021-01-27 08:35:36,442 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 08:35:36.442694
+
+
+
+2021-01-27 08:35:39,166 - main.py[line:22] - INFO: 整理训练数据
+2021-01-27 08:36:16,276 - main.py[line:27] - INFO: word_limit_size=50
+2021-01-27 08:36:16,276 - main.py[line:28] - INFO: 整理训练数据时间:37110毫秒;37秒
+2021-01-27 08:36:16,277 - main.py[line:31] - INFO: 生成词向量文件
+2021-01-27 08:38:29,257 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 08:38:29.256985
+
+
+
+2021-01-27 08:38:31,951 - main.py[line:22] - INFO: 整理训练数据
+2021-01-27 08:39:08,434 - main.py[line:27] - INFO: word_limit_size=50
+2021-01-27 08:39:08,434 - main.py[line:28] - INFO: 整理训练数据时间:36483毫秒;36秒
+2021-01-27 08:39:08,434 - main.py[line:31] - INFO: 生成词向量文件
+2021-01-27 08:40:17,937 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 08:40:17.937044
+
+
+
+2021-01-27 08:40:20,634 - main.py[line:22] - INFO: 整理训练数据
+2021-01-27 08:40:57,429 - main.py[line:27] - INFO: word_limit_size=50
+2021-01-27 08:40:57,429 - main.py[line:28] - INFO: 整理训练数据时间:36795毫秒;36秒
+2021-01-27 08:40:57,430 - main.py[line:31] - INFO: 生成词向量文件
+2021-01-27 08:41:42,534 - main.py[line:37] - INFO: 生成词向量文件:45104毫秒;45秒
+2021-01-27 09:01:54,376 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 09:01:54.376017
+
+
+
+2021-01-27 09:01:57,077 - main.py[line:22] - INFO: 整理训练数据
+2021-01-27 09:02:33,670 - main.py[line:27] - INFO: word_limit_size=50
+2021-01-27 09:02:33,670 - main.py[line:28] - INFO: 整理训练数据时间:36593毫秒;36秒
+2021-01-27 09:02:33,670 - main.py[line:31] - INFO: 生成词向量文件
+2021-01-27 09:03:18,257 - main.py[line:36] - INFO: 生成词向量文件时间:44587毫秒;44秒
+2021-01-27 09:03:18,258 - main.py[line:39] - INFO: 训练模型
+2021-01-27 09:11:45,934 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-27 09:11:45.934312
+
+
+
+2021-01-27 09:11:48,627 - main.py[line:22] - INFO: 整理训练数据
+2021-01-27 09:12:25,055 - main.py[line:27] - INFO: word_limit_size=50
+2021-01-27 09:12:25,055 - main.py[line:28] - INFO: 整理训练数据时间:36429毫秒;36秒
+2021-01-27 09:12:25,056 - main.py[line:31] - INFO: 生成词向量文件
+2021-01-27 09:13:10,292 - main.py[line:36] - INFO: 生成词向量文件时间:45236毫秒;45秒
+2021-01-27 09:13:10,292 - main.py[line:39] - INFO: 训练模型
+2021-01-27 10:09:36,235 - main.py[line:44] - INFO: 训练模型时间:3385942毫秒;3385秒

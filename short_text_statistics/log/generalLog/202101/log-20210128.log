@@ -1,0 +1,106 @@
+2021-01-28 18:03:03,053 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-28 18:03:03.053753
+
+
+
+2021-01-28 18:03:09,209 - /python/tensorflow_test/short_text_statistics/prepareTrainData.py[line:48] - INFO: 一共有24000个文件
+2021-01-28 18:04:42,145 - /python/tensorflow_test/short_text_statistics/prepareTrainData.py[line:87] - INFO: 训练数据整理完毕
+2021-01-28 18:04:42,154 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:04:42,398 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:728] - INFO: 临时语料库文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:04:42,398 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:738] - INFO: 开始生成词向量文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:05:16,003 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:844] - INFO: 词向量文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:05:21,279 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:355] - INFO: 按照0.95的比例分配训练和测试数据完成
+2021-01-28 18:05:21,280 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:356] - INFO: 训练数据数量：22800
+2021-01-28 18:05:21,281 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:357] - INFO: 测试数据数量：1200
+2021-01-28 18:05:21,366 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:859] - INFO: train data shape: (22800, 200)
+2021-01-28 18:05:21,366 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:860] - INFO: train label shape: (22800,)
+2021-01-28 18:05:21,367 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:861] - INFO: eval data shape: (1200, 200)
+2021-01-28 18:05:21,423 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:05:23,277 - /python/tensorflow_test/short_text_statistics/predictions.py[line:79] - INFO: 模型载入成功, yeah
+2021-01-28 18:05:40,544 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:05:40,806 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:728] - INFO: 临时语料库文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:05:40,807 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:738] - INFO: 开始生成词向量文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:06:14,239 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:844] - INFO: 词向量文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:06:19,490 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:355] - INFO: 按照0.95的比例分配训练和测试数据完成
+2021-01-28 18:06:19,491 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:356] - INFO: 训练数据数量：22800
+2021-01-28 18:06:19,491 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:357] - INFO: 测试数据数量：1200
+2021-01-28 18:06:19,578 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:859] - INFO: train data shape: (22800, 200)
+2021-01-28 18:06:19,579 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:860] - INFO: train label shape: (22800,)
+2021-01-28 18:06:19,579 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:861] - INFO: eval data shape: (1200, 200)
+2021-01-28 18:06:19,620 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:06:21,264 - /python/tensorflow_test/short_text_statistics/predictions.py[line:79] - INFO: 模型载入成功, yeah
+2021-01-28 18:06:43,175 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:43,488 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:728] - INFO: 临时语料库文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:43,495 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:738] - INFO: 开始生成词向量文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:06:45,784 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:06:46,237 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:46,509 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:728] - INFO: 临时语料库文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:46,509 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:738] - INFO: 开始生成词向量文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:06:46,904 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:06:47,076 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:47,532 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:06:47,621 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:47,964 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:06:48,346 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:48,739 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:06:48,962 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:49,396 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:06:49,605 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:49,854 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:728] - INFO: 临时语料库文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:49,855 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:738] - INFO: 开始生成词向量文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:06:50,155 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:06:50,669 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:50,740 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:50,940 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:06:51,027 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:07:18,752 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-28 18:07:18.751979
+
+
+
+2021-01-28 18:07:25,619 - /python/tensorflow_test/short_text_statistics/prepareTrainData.py[line:48] - INFO: 一共有24000个文件
+2021-01-28 18:08:58,078 - /python/tensorflow_test/short_text_statistics/prepareTrainData.py[line:87] - INFO: 训练数据整理完毕
+2021-01-28 18:08:58,080 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:08:58,360 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:728] - INFO: 临时语料库文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:08:58,361 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:738] - INFO: 开始生成词向量文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:09:29,869 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:844] - INFO: 词向量文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:09:35,813 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:355] - INFO: 按照0.95的比例分配训练和测试数据完成
+2021-01-28 18:09:35,813 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:356] - INFO: 训练数据数量：22800
+2021-01-28 18:09:35,814 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:357] - INFO: 测试数据数量：1200
+2021-01-28 18:09:35,893 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:859] - INFO: train data shape: (22800, 200)
+2021-01-28 18:09:35,893 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:860] - INFO: train label shape: (22800,)
+2021-01-28 18:09:35,894 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:861] - INFO: eval data shape: (1200, 200)
+2021-01-28 18:09:35,954 - /python/tensorflow_test/short_text_statistics/predictions.py[line:66] - INFO: 载入CheckPoint模型文件目录：/python/tensorflow_test/short_text_statistics/data/model/
+2021-01-28 18:09:37,836 - /python/tensorflow_test/short_text_statistics/predictions.py[line:79] - INFO: 模型载入成功, yeah
+2021-01-28 18:12:11,713 - /python/tensorflow_test/short_text_statistics/logger.py[line:73] - INFO: 
+
+
+		新启动运行T2021-01-28 18:12:11.713789
+
+
+
+2021-01-28 18:12:18,511 - /python/tensorflow_test/short_text_statistics/prepareTrainData.py[line:48] - INFO: 一共有24000个文件
+2021-01-28 18:13:50,619 - /python/tensorflow_test/short_text_statistics/prepareTrainData.py[line:87] - INFO: 训练数据整理完毕
+2021-01-28 18:13:50,625 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:717] - INFO: 开始生成临时语料库文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:13:50,871 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:728] - INFO: 临时语料库文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.tmp
+2021-01-28 18:13:50,871 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:738] - INFO: 开始生成词向量文件：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:14:27,676 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:844] - INFO: 词向量文件生成完毕：/python/tensorflow_test/short_text_statistics/data/word2Vec.bin
+2021-01-28 18:14:32,997 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:355] - INFO: 按照0.95的比例分配训练和测试数据完成
+2021-01-28 18:14:32,998 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:356] - INFO: 训练数据数量：22800
+2021-01-28 18:14:32,998 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:357] - INFO: 测试数据数量：1200
+2021-01-28 18:14:33,081 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:859] - INFO: train data shape: (22800, 200)
+2021-01-28 18:14:33,082 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:860] - INFO: train label shape: (22800,)
+2021-01-28 18:14:33,082 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:861] - INFO: eval data shape: (1200, 200)
+2021-01-28 18:14:39,353 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:903] - INFO: Writing to /python/tensorflow_test/short_text_statistics/data/model/summarys
+
+2021-01-28 18:14:42,816 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:981] - INFO: epoches：04
+2021-01-28 18:14:55,246 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:987] - INFO: train: step: 1, loss: 1.7980372905731201, acc: 0.1796875, recall: 0.16470022352375294, precision: 0.12611063950198076, f_beta: 0.12774904214559388
+2021-01-28 18:15:03,992 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:987] - INFO: train: step: 2, loss: 1.735440731048584, acc: 0.21875, recall: 0.19474969474969475, precision: 0.13983739837398376, f_beta: 0.12465153325368379
+2021-01-28 18:15:12,427 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:987] - INFO: train: step: 3, loss: 1.6608107089996338, acc: 0.3125, recall: 0.2781902638424378, precision: 0.40788224121557454, f_beta: 0.23528376693425238
+2021-01-28 18:15:20,558 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:987] - INFO: train: step: 4, loss: 1.6305766105651855, acc: 0.375, recall: 0.3590675664205076, precision: 0.5187059695958472, f_beta: 0.3346092311087346
+2021-01-28 18:15:28,661 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:987] - INFO: train: step: 5, loss: 1.4704747200012207, acc: 0.4453125, recall: 0.42299289891395153, precision: 0.3865850970017637, f_beta: 0.3964054447376319
+2021-01-28 18:15:36,783 - /python/tensorflow_test/short_text_statistics/trainModel.py[line:987] - INFO: train: step: 6, loss: 1.4132145643234253, acc: 0.421875, recall: 0.44146560139207197, precision: 0.4983530449216724, f_beta: 0.39062201548297204

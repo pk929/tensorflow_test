@@ -1,0 +1,559 @@
+2021-02-02 16:47:21,990 - /python/tensorflow_test/short_text_statistics/logger.py[line:74] - INFO: 
+
+
+		新启动运行T2021-02-02 16:47:21.990961
+
+
+
+2021-02-02 16:47:24,695 - main.py[line:49] - INFO: 整理训练数据
+2021-02-02 16:49:04,751 - main.py[line:54] - INFO: word_limit_size=50
+2021-02-02 16:49:04,751 - main.py[line:55] - INFO: 整理训练数据时间:100055毫秒;100秒
+2021-02-02 16:49:04,751 - main.py[line:56] - INFO: 
+
+
+2021-02-02 16:49:04,751 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 16:49:04,751 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 16:49:04,751 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 2, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 16:49:18,796 - main.py[line:75] - INFO: 生成词向量文件时间:14045毫秒;14秒
+2021-02-02 16:49:18,796 - main.py[line:76] - INFO: 
+
+
+2021-02-02 16:49:18,821 - main.py[line:84] - INFO: 训练模型
+2021-02-02 17:36:52,457 - main.py[line:91] - INFO: 训练模型时间:2853635毫秒;2853秒;模型文件大小:835934410
+2021-02-02 17:36:52,457 - main.py[line:92] - INFO: 
+
+
+2021-02-02 17:36:52,458 - main.py[line:96] - INFO: 准确率统计
+2021-02-02 17:36:52,458 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-02 17:39:42,092 - main.py[line:103] - INFO: 成功数：2238 总数：2400 准确率:0.9325
+2021-02-02 17:39:42,092 - main.py[line:104] - INFO: 准确率统计时间:169634毫秒;169秒
+2021-02-02 17:39:42,092 - main.py[line:105] - INFO: 
+
+
+2021-02-02 17:39:42,092 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 17:39:42,092 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 17:39:42,092 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 3, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 17:39:56,075 - main.py[line:75] - INFO: 生成词向量文件时间:13983毫秒;13秒
+2021-02-02 17:39:56,076 - main.py[line:76] - INFO: 
+
+
+2021-02-02 17:39:56,175 - main.py[line:84] - INFO: 训练模型
+2021-02-02 18:27:07,088 - main.py[line:91] - INFO: 训练模型时间:2830912毫秒;2830秒;模型文件大小:835654292
+2021-02-02 18:27:07,088 - main.py[line:92] - INFO: 
+
+
+2021-02-02 18:27:07,088 - main.py[line:96] - INFO: 准确率统计
+2021-02-02 18:27:07,088 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-02 18:29:55,755 - main.py[line:103] - INFO: 成功数：2159 总数：2400 准确率:0.8996
+2021-02-02 18:29:55,755 - main.py[line:104] - INFO: 准确率统计时间:168666毫秒;168秒
+2021-02-02 18:29:55,755 - main.py[line:105] - INFO: 
+
+
+2021-02-02 18:29:55,755 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 18:29:55,755 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 18:29:55,755 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 4, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 18:30:09,851 - main.py[line:75] - INFO: 生成词向量文件时间:14095毫秒;14秒
+2021-02-02 18:30:09,851 - main.py[line:76] - INFO: 
+
+
+2021-02-02 18:30:09,955 - main.py[line:84] - INFO: 训练模型
+2021-02-02 19:17:02,143 - main.py[line:91] - INFO: 训练模型时间:2812187毫秒;2812秒;模型文件大小:835401257
+2021-02-02 19:17:02,143 - main.py[line:92] - INFO: 
+
+
+2021-02-02 19:17:02,143 - main.py[line:96] - INFO: 准确率统计
+2021-02-02 19:17:02,143 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-02 19:19:50,072 - main.py[line:103] - INFO: 成功数：2241 总数：2400 准确率:0.9337
+2021-02-02 19:19:50,072 - main.py[line:104] - INFO: 准确率统计时间:167929毫秒;167秒
+2021-02-02 19:19:50,072 - main.py[line:105] - INFO: 
+
+
+2021-02-02 19:19:50,072 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 19:19:50,073 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 19:19:50,073 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 19:20:04,463 - main.py[line:75] - INFO: 生成词向量文件时间:14390毫秒;14秒
+2021-02-02 19:20:04,463 - main.py[line:76] - INFO: 
+
+
+2021-02-02 19:20:04,561 - main.py[line:84] - INFO: 训练模型
+2021-02-02 20:06:53,638 - main.py[line:91] - INFO: 训练模型时间:2809076毫秒;2809秒;模型文件大小:835167289
+2021-02-02 20:06:53,639 - main.py[line:92] - INFO: 
+
+
+2021-02-02 20:06:53,639 - main.py[line:96] - INFO: 准确率统计
+2021-02-02 20:06:53,639 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-02 20:09:42,674 - main.py[line:103] - INFO: 成功数：2263 总数：2400 准确率:0.9429
+2021-02-02 20:09:42,674 - main.py[line:104] - INFO: 准确率统计时间:169035毫秒;169秒
+2021-02-02 20:09:42,674 - main.py[line:105] - INFO: 
+
+
+2021-02-02 20:09:42,674 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 20:09:42,674 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 20:09:42,674 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 6, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 20:09:57,095 - main.py[line:75] - INFO: 生成词向量文件时间:14421毫秒;14秒
+2021-02-02 20:09:57,095 - main.py[line:76] - INFO: 
+
+
+2021-02-02 20:09:57,190 - main.py[line:84] - INFO: 训练模型
+2021-02-02 20:56:44,326 - main.py[line:91] - INFO: 训练模型时间:2807135毫秒;2807秒;模型文件大小:835095702
+2021-02-02 20:56:44,326 - main.py[line:92] - INFO: 
+
+
+2021-02-02 20:56:44,326 - main.py[line:96] - INFO: 准确率统计
+2021-02-02 20:56:44,326 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-02 20:59:34,569 - main.py[line:103] - INFO: 成功数：2179 总数：2400 准确率:0.9079
+2021-02-02 20:59:34,569 - main.py[line:104] - INFO: 准确率统计时间:170243毫秒;170秒
+2021-02-02 20:59:34,569 - main.py[line:105] - INFO: 
+
+
+2021-02-02 20:59:34,569 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 20:59:34,570 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 20:59:34,570 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 7, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 20:59:49,137 - main.py[line:75] - INFO: 生成词向量文件时间:14568毫秒;14秒
+2021-02-02 20:59:49,138 - main.py[line:76] - INFO: 
+
+
+2021-02-02 20:59:49,233 - main.py[line:84] - INFO: 训练模型
+2021-02-02 21:46:28,959 - main.py[line:91] - INFO: 训练模型时间:2799724毫秒;2799秒;模型文件大小:835133583
+2021-02-02 21:46:28,959 - main.py[line:92] - INFO: 
+
+
+2021-02-02 21:46:28,959 - main.py[line:96] - INFO: 准确率统计
+2021-02-02 21:46:28,959 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-02 21:49:18,307 - main.py[line:103] - INFO: 成功数：2262 总数：2400 准确率:0.9425
+2021-02-02 21:49:18,307 - main.py[line:104] - INFO: 准确率统计时间:169348毫秒;169秒
+2021-02-02 21:49:18,308 - main.py[line:105] - INFO: 
+
+
+2021-02-02 21:49:18,308 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 21:49:18,308 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 21:49:18,308 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 8, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 21:49:32,991 - main.py[line:75] - INFO: 生成词向量文件时间:14684毫秒;14秒
+2021-02-02 21:49:32,992 - main.py[line:76] - INFO: 
+
+
+2021-02-02 21:49:33,088 - main.py[line:84] - INFO: 训练模型
+2021-02-02 22:35:56,502 - main.py[line:91] - INFO: 训练模型时间:2783412毫秒;2783秒;模型文件大小:835012564
+2021-02-02 22:35:56,502 - main.py[line:92] - INFO: 
+
+
+2021-02-02 22:35:56,502 - main.py[line:96] - INFO: 准确率统计
+2021-02-02 22:35:56,502 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-02 22:38:51,783 - main.py[line:103] - INFO: 成功数：2226 总数：2400 准确率:0.9275
+2021-02-02 22:38:51,783 - main.py[line:104] - INFO: 准确率统计时间:175281毫秒;175秒
+2021-02-02 22:38:51,783 - main.py[line:105] - INFO: 
+
+
+2021-02-02 22:38:51,783 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 22:38:51,783 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 22:38:51,783 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 9, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 22:39:06,558 - main.py[line:75] - INFO: 生成词向量文件时间:14775毫秒;14秒
+2021-02-02 22:39:06,559 - main.py[line:76] - INFO: 
+
+
+2021-02-02 22:39:06,654 - main.py[line:84] - INFO: 训练模型
+2021-02-02 23:25:12,397 - main.py[line:91] - INFO: 训练模型时间:2765739毫秒;2765秒;模型文件大小:834759488
+2021-02-02 23:25:12,397 - main.py[line:92] - INFO: 
+
+
+2021-02-02 23:25:12,397 - main.py[line:96] - INFO: 准确率统计
+2021-02-02 23:25:12,397 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-02 23:28:01,695 - main.py[line:103] - INFO: 成功数：2217 总数：2400 准确率:0.9237
+2021-02-02 23:28:01,696 - main.py[line:104] - INFO: 准确率统计时间:169298毫秒;169秒
+2021-02-02 23:28:01,696 - main.py[line:105] - INFO: 
+
+
+2021-02-02 23:28:01,696 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-02 23:28:01,696 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-02 23:28:01,696 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 10, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-02 23:28:16,484 - main.py[line:75] - INFO: 生成词向量文件时间:14788毫秒;14秒
+2021-02-02 23:28:16,485 - main.py[line:76] - INFO: 
+
+
+2021-02-02 23:28:16,578 - main.py[line:84] - INFO: 训练模型
+2021-02-03 00:15:16,442 - main.py[line:91] - INFO: 训练模型时间:2819863毫秒;2819秒;模型文件大小:834861517
+2021-02-03 00:15:16,442 - main.py[line:92] - INFO: 
+
+
+2021-02-03 00:15:16,442 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 00:15:16,442 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 00:18:07,957 - main.py[line:103] - INFO: 成功数：2223 总数：2400 准确率:0.9263
+2021-02-03 00:18:07,957 - main.py[line:104] - INFO: 准确率统计时间:171515毫秒;171秒
+2021-02-03 00:18:07,957 - main.py[line:105] - INFO: 
+
+
+2021-02-03 00:18:07,957 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 00:18:07,957 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 00:18:07,957 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 3, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 00:18:25,603 - main.py[line:75] - INFO: 生成词向量文件时间:17645毫秒;17秒
+2021-02-03 00:18:25,603 - main.py[line:76] - INFO: 
+
+
+2021-02-03 00:18:25,699 - main.py[line:84] - INFO: 训练模型
+2021-02-03 01:04:31,264 - main.py[line:91] - INFO: 训练模型时间:2765561毫秒;2765秒;模型文件大小:835476960
+2021-02-03 01:04:31,264 - main.py[line:92] - INFO: 
+
+
+2021-02-03 01:04:31,264 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 01:04:31,264 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 01:07:23,909 - main.py[line:103] - INFO: 成功数：2281 总数：2400 准确率:0.9504
+2021-02-03 01:07:23,909 - main.py[line:104] - INFO: 准确率统计时间:172645毫秒;172秒
+2021-02-03 01:07:23,909 - main.py[line:105] - INFO: 
+
+
+2021-02-03 01:07:23,909 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 01:07:23,910 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 01:07:23,910 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 4, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 01:07:39,385 - main.py[line:75] - INFO: 生成词向量文件时间:15476毫秒;15秒
+2021-02-03 01:07:39,385 - main.py[line:76] - INFO: 
+
+
+2021-02-03 01:07:39,481 - main.py[line:84] - INFO: 训练模型
+2021-02-03 01:53:47,137 - main.py[line:91] - INFO: 训练模型时间:2767653毫秒;2767秒;模型文件大小:835293972
+2021-02-03 01:53:47,137 - main.py[line:92] - INFO: 
+
+
+2021-02-03 01:53:47,137 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 01:53:47,137 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 01:56:38,759 - main.py[line:103] - INFO: 成功数：2239 总数：2400 准确率:0.9329
+2021-02-03 01:56:38,759 - main.py[line:104] - INFO: 准确率统计时间:171622毫秒;171秒
+2021-02-03 01:56:38,759 - main.py[line:105] - INFO: 
+
+
+2021-02-03 01:56:38,759 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 01:56:38,760 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 01:56:38,760 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 01:56:52,915 - main.py[line:75] - INFO: 生成词向量文件时间:14156毫秒;14秒
+2021-02-03 01:56:52,916 - main.py[line:76] - INFO: 
+
+
+2021-02-03 01:56:53,008 - main.py[line:84] - INFO: 训练模型
+2021-02-03 02:43:11,656 - main.py[line:91] - INFO: 训练模型时间:2778646毫秒;2778秒;模型文件大小:835221401
+2021-02-03 02:43:11,656 - main.py[line:92] - INFO: 
+
+
+2021-02-03 02:43:11,656 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 02:43:11,657 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 02:45:58,694 - main.py[line:103] - INFO: 成功数：2240 总数：2400 准确率:0.9333
+2021-02-03 02:45:58,694 - main.py[line:104] - INFO: 准确率统计时间:167037毫秒;167秒
+2021-02-03 02:45:58,694 - main.py[line:105] - INFO: 
+
+
+2021-02-03 02:45:58,695 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 02:45:58,695 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 02:45:58,695 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 6, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 02:46:11,951 - main.py[line:75] - INFO: 生成词向量文件时间:13257毫秒;13秒
+2021-02-03 02:46:11,952 - main.py[line:76] - INFO: 
+
+
+2021-02-03 02:46:12,045 - main.py[line:84] - INFO: 训练模型
+2021-02-03 03:32:08,556 - main.py[line:91] - INFO: 训练模型时间:2756508毫秒;2756秒;模型文件大小:741956440
+2021-02-03 03:32:08,556 - main.py[line:92] - INFO: 
+
+
+2021-02-03 03:32:08,556 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 03:32:08,556 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 03:35:05,407 - main.py[line:103] - INFO: 成功数：2215 总数：2400 准确率:0.9229
+2021-02-03 03:35:05,408 - main.py[line:104] - INFO: 准确率统计时间:176851毫秒;176秒
+2021-02-03 03:35:05,408 - main.py[line:105] - INFO: 
+
+
+2021-02-03 03:35:05,408 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 03:35:05,408 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 03:35:05,408 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 7, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 03:35:17,875 - main.py[line:75] - INFO: 生成词向量文件时间:12467毫秒;12秒
+2021-02-03 03:35:17,875 - main.py[line:76] - INFO: 
+
+
+2021-02-03 03:35:17,957 - main.py[line:84] - INFO: 训练模型
+2021-02-03 04:21:43,590 - main.py[line:91] - INFO: 训练模型时间:2785631毫秒;2785秒;模型文件大小:674543289
+2021-02-03 04:21:43,590 - main.py[line:92] - INFO: 
+
+
+2021-02-03 04:21:43,590 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 04:21:43,590 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 04:24:38,391 - main.py[line:103] - INFO: 成功数：2292 总数：2400 准确率:0.9550
+2021-02-03 04:24:38,391 - main.py[line:104] - INFO: 准确率统计时间:174801毫秒;174秒
+2021-02-03 04:24:38,392 - main.py[line:105] - INFO: 
+
+
+2021-02-03 04:24:38,392 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 04:24:38,392 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 04:24:38,392 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 1, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 04:25:08,522 - main.py[line:75] - INFO: 生成词向量文件时间:30130毫秒;30秒
+2021-02-03 04:25:08,522 - main.py[line:76] - INFO: 
+
+
+2021-02-03 04:25:08,598 - main.py[line:84] - INFO: 训练模型
+2021-02-03 05:11:26,522 - main.py[line:91] - INFO: 训练模型时间:2777921毫秒;2777秒;模型文件大小:835600507
+2021-02-03 05:11:26,522 - main.py[line:92] - INFO: 
+
+
+2021-02-03 05:11:26,522 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 05:11:26,522 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 05:14:15,869 - main.py[line:103] - INFO: 成功数：2105 总数：2400 准确率:0.8771
+2021-02-03 05:14:15,870 - main.py[line:104] - INFO: 准确率统计时间:169347毫秒;169秒
+2021-02-03 05:14:15,870 - main.py[line:105] - INFO: 
+
+
+2021-02-03 05:14:15,870 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 05:14:15,870 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 05:14:15,870 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 0, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 05:14:30,034 - main.py[line:75] - INFO: 生成词向量文件时间:14164毫秒;14秒
+2021-02-03 05:14:30,034 - main.py[line:76] - INFO: 
+
+
+2021-02-03 05:14:30,124 - main.py[line:84] - INFO: 训练模型
+2021-02-03 06:00:57,505 - main.py[line:91] - INFO: 训练模型时间:2787379毫秒;2787秒;模型文件大小:836500484
+2021-02-03 06:00:57,506 - main.py[line:92] - INFO: 
+
+
+2021-02-03 06:00:57,506 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 06:00:57,506 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 06:03:52,372 - main.py[line:103] - INFO: 成功数：2166 总数：2400 准确率:0.9025
+2021-02-03 06:03:52,372 - main.py[line:104] - INFO: 准确率统计时间:174866毫秒;174秒
+2021-02-03 06:03:52,372 - main.py[line:105] - INFO: 
+
+
+2021-02-03 06:03:52,373 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 06:03:52,373 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 06:03:52,373 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 1, 'cbow_mean': 0, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 06:04:23,589 - main.py[line:75] - INFO: 生成词向量文件时间:31216毫秒;31秒
+2021-02-03 06:04:23,589 - main.py[line:76] - INFO: 
+
+
+2021-02-03 06:04:23,681 - main.py[line:84] - INFO: 训练模型
+2021-02-03 06:50:49,631 - main.py[line:91] - INFO: 训练模型时间:2785946毫秒;2785秒;模型文件大小:835472751
+2021-02-03 06:50:49,631 - main.py[line:92] - INFO: 
+
+
+2021-02-03 06:50:49,631 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 06:50:49,631 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 06:53:44,110 - main.py[line:103] - INFO: 成功数：2253 总数：2400 准确率:0.9387
+2021-02-03 06:53:44,110 - main.py[line:104] - INFO: 准确率统计时间:174478毫秒;174秒
+2021-02-03 06:53:44,110 - main.py[line:105] - INFO: 
+
+
+2021-02-03 06:53:44,110 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 06:53:44,111 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 06:53:44,111 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 1, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 06:54:06,180 - main.py[line:75] - INFO: 生成词向量文件时间:22069毫秒;22秒
+2021-02-03 06:54:06,180 - main.py[line:76] - INFO: 
+
+
+2021-02-03 06:54:06,274 - main.py[line:84] - INFO: 训练模型
+2021-02-03 07:40:20,371 - main.py[line:91] - INFO: 训练模型时间:2774094毫秒;2774秒;模型文件大小:834449862
+2021-02-03 07:40:20,371 - main.py[line:92] - INFO: 
+
+
+2021-02-03 07:40:20,371 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 07:40:20,371 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 07:43:11,022 - main.py[line:103] - INFO: 成功数：2287 总数：2400 准确率:0.9529
+2021-02-03 07:43:11,022 - main.py[line:104] - INFO: 准确率统计时间:170651毫秒;170秒
+2021-02-03 07:43:11,022 - main.py[line:105] - INFO: 
+
+
+2021-02-03 07:43:11,023 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 07:43:11,023 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 07:43:11,023 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 3, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 07:43:24,347 - main.py[line:75] - INFO: 生成词向量文件时间:13324毫秒;13秒
+2021-02-03 07:43:24,347 - main.py[line:76] - INFO: 
+
+
+2021-02-03 07:43:24,439 - main.py[line:84] - INFO: 训练模型
+2021-02-03 08:30:29,774 - main.py[line:91] - INFO: 训练模型时间:2825333毫秒;2825秒;模型文件大小:835289186
+2021-02-03 08:30:29,775 - main.py[line:92] - INFO: 
+
+
+2021-02-03 08:30:29,775 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 08:30:29,775 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 08:33:18,729 - main.py[line:103] - INFO: 成功数：2247 总数：2400 准确率:0.9363
+2021-02-03 08:33:18,729 - main.py[line:104] - INFO: 准确率统计时间:168954毫秒;168秒
+2021-02-03 08:33:18,729 - main.py[line:105] - INFO: 
+
+
+2021-02-03 08:33:18,729 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 08:33:18,729 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 08:33:18,729 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 4, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 08:33:32,637 - main.py[line:75] - INFO: 生成词向量文件时间:13908毫秒;13秒
+2021-02-03 08:33:32,638 - main.py[line:76] - INFO: 
+
+
+2021-02-03 08:33:32,732 - main.py[line:84] - INFO: 训练模型
+2021-02-03 09:19:55,786 - main.py[line:91] - INFO: 训练模型时间:2783051毫秒;2783秒;模型文件大小:835368815
+2021-02-03 09:19:55,786 - main.py[line:92] - INFO: 
+
+
+2021-02-03 09:19:55,786 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 09:19:55,786 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 09:22:44,093 - main.py[line:103] - INFO: 成功数：2254 总数：2400 准确率:0.9392
+2021-02-03 09:22:44,093 - main.py[line:104] - INFO: 准确率统计时间:168307毫秒;168秒
+2021-02-03 09:22:44,094 - main.py[line:105] - INFO: 
+
+
+2021-02-03 09:22:44,094 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 09:22:44,094 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 09:22:44,094 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 09:22:58,330 - main.py[line:75] - INFO: 生成词向量文件时间:14236毫秒;14秒
+2021-02-03 09:22:58,330 - main.py[line:76] - INFO: 
+
+
+2021-02-03 09:22:58,421 - main.py[line:84] - INFO: 训练模型
+2021-02-03 10:09:28,848 - main.py[line:91] - INFO: 训练模型时间:2790423毫秒;2790秒;模型文件大小:835255860
+2021-02-03 10:09:28,849 - main.py[line:92] - INFO: 
+
+
+2021-02-03 10:09:28,849 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 10:09:28,849 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 10:12:20,425 - main.py[line:103] - INFO: 成功数：2254 总数：2400 准确率:0.9392
+2021-02-03 10:12:20,425 - main.py[line:104] - INFO: 准确率统计时间:171576毫秒;171秒
+2021-02-03 10:12:20,425 - main.py[line:105] - INFO: 
+
+
+2021-02-03 10:12:20,425 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 10:12:20,426 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 10:12:20,426 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 6, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 10:12:35,218 - main.py[line:75] - INFO: 生成词向量文件时间:14793毫秒;14秒
+2021-02-03 10:12:35,219 - main.py[line:76] - INFO: 
+
+
+2021-02-03 10:12:35,310 - main.py[line:84] - INFO: 训练模型
+2021-02-03 10:58:52,783 - main.py[line:91] - INFO: 训练模型时间:2777471毫秒;2777秒;模型文件大小:835389302
+2021-02-03 10:58:52,783 - main.py[line:92] - INFO: 
+
+
+2021-02-03 10:58:52,784 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 10:58:52,784 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 11:01:41,648 - main.py[line:103] - INFO: 成功数：2077 总数：2400 准确率:0.8654
+2021-02-03 11:01:41,648 - main.py[line:104] - INFO: 准确率统计时间:168864毫秒;168秒
+2021-02-03 11:01:41,648 - main.py[line:105] - INFO: 
+
+
+2021-02-03 11:01:41,649 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 11:01:41,649 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 11:01:41,649 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 7, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 11:01:57,285 - main.py[line:75] - INFO: 生成词向量文件时间:15636毫秒;15秒
+2021-02-03 11:01:57,286 - main.py[line:76] - INFO: 
+
+
+2021-02-03 11:01:57,376 - main.py[line:84] - INFO: 训练模型
+2021-02-03 11:48:10,010 - main.py[line:91] - INFO: 训练模型时间:2772632毫秒;2772秒;模型文件大小:835278612
+2021-02-03 11:48:10,010 - main.py[line:92] - INFO: 
+
+
+2021-02-03 11:48:10,010 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 11:48:10,010 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 11:51:01,659 - main.py[line:103] - INFO: 成功数：2274 总数：2400 准确率:0.9475
+2021-02-03 11:51:01,660 - main.py[line:104] - INFO: 准确率统计时间:171649毫秒;171秒
+2021-02-03 11:51:01,660 - main.py[line:105] - INFO: 
+
+
+2021-02-03 11:51:01,660 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 11:51:01,660 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 11:51:01,660 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 8, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 11:51:17,787 - main.py[line:75] - INFO: 生成词向量文件时间:16126毫秒;16秒
+2021-02-03 11:51:17,787 - main.py[line:76] - INFO: 
+
+
+2021-02-03 11:51:17,876 - main.py[line:84] - INFO: 训练模型
+2021-02-03 12:37:28,483 - main.py[line:91] - INFO: 训练模型时间:2770604毫秒;2770秒;模型文件大小:835246214
+2021-02-03 12:37:28,483 - main.py[line:92] - INFO: 
+
+
+2021-02-03 12:37:28,483 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 12:37:28,483 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 12:40:22,748 - main.py[line:103] - INFO: 成功数：2267 总数：2400 准确率:0.9446
+2021-02-03 12:40:22,748 - main.py[line:104] - INFO: 准确率统计时间:174265毫秒;174秒
+2021-02-03 12:40:22,749 - main.py[line:105] - INFO: 
+
+
+2021-02-03 12:40:22,749 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 12:40:22,749 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 12:40:22,749 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 9, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 12:40:39,439 - main.py[line:75] - INFO: 生成词向量文件时间:16690毫秒;16秒
+2021-02-03 12:40:39,439 - main.py[line:76] - INFO: 
+
+
+2021-02-03 12:40:39,528 - main.py[line:84] - INFO: 训练模型
+2021-02-03 13:26:58,525 - main.py[line:91] - INFO: 训练模型时间:2778993毫秒;2778秒;模型文件大小:835016944
+2021-02-03 13:26:58,525 - main.py[line:92] - INFO: 
+
+
+2021-02-03 13:26:58,525 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 13:26:58,526 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 13:29:46,772 - main.py[line:103] - INFO: 成功数：2274 总数：2400 准确率:0.9475
+2021-02-03 13:29:46,773 - main.py[line:104] - INFO: 准确率统计时间:168247毫秒;168秒
+2021-02-03 13:29:46,773 - main.py[line:105] - INFO: 
+
+
+2021-02-03 13:29:46,773 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 13:29:46,773 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 13:29:46,773 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 10, 'ns_exponent': 0.75, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 13:30:04,048 - main.py[line:75] - INFO: 生成词向量文件时间:17275毫秒;17秒
+2021-02-03 13:30:04,049 - main.py[line:76] - INFO: 
+
+
+2021-02-03 13:30:04,139 - main.py[line:84] - INFO: 训练模型
+2021-02-03 14:16:15,816 - main.py[line:91] - INFO: 训练模型时间:2771674毫秒;2771秒;模型文件大小:834980596
+2021-02-03 14:16:15,816 - main.py[line:92] - INFO: 
+
+
+2021-02-03 14:16:15,816 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 14:16:15,817 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 14:19:07,656 - main.py[line:103] - INFO: 成功数：2260 总数：2400 准确率:0.9417
+2021-02-03 14:19:07,657 - main.py[line:104] - INFO: 准确率统计时间:171840毫秒;171秒
+2021-02-03 14:19:07,657 - main.py[line:105] - INFO: 
+
+
+2021-02-03 14:19:07,657 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 14:19:07,657 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 14:19:07,657 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 14:19:22,552 - main.py[line:75] - INFO: 生成词向量文件时间:14894毫秒;14秒
+2021-02-03 14:19:22,552 - main.py[line:76] - INFO: 
+
+
+2021-02-03 14:19:22,640 - main.py[line:84] - INFO: 训练模型
+2021-02-03 15:06:01,256 - main.py[line:91] - INFO: 训练模型时间:2798614毫秒;2798秒;模型文件大小:836460948
+2021-02-03 15:06:01,256 - main.py[line:92] - INFO: 
+
+
+2021-02-03 15:06:01,256 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 15:06:01,256 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 15:08:57,320 - main.py[line:103] - INFO: 成功数：2198 总数：2400 准确率:0.9158
+2021-02-03 15:08:57,321 - main.py[line:104] - INFO: 准确率统计时间:176063毫秒;176秒
+2021-02-03 15:08:57,321 - main.py[line:105] - INFO: 
+
+
+2021-02-03 15:08:57,321 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 15:08:57,321 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 15:08:57,321 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.25, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 15:09:12,013 - main.py[line:75] - INFO: 生成词向量文件时间:14691毫秒;14秒
+2021-02-03 15:09:12,013 - main.py[line:76] - INFO: 
+
+
+2021-02-03 15:09:12,103 - main.py[line:84] - INFO: 训练模型
+2021-02-03 15:55:33,515 - main.py[line:91] - INFO: 训练模型时间:2781409毫秒;2781秒;模型文件大小:836362952
+2021-02-03 15:55:33,515 - main.py[line:92] - INFO: 
+
+
+2021-02-03 15:55:33,515 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 15:55:33,516 - main.py[line:97] - INFO: sequenceLength=200
+2021-02-03 15:58:23,444 - main.py[line:103] - INFO: 成功数：2167 总数：2400 准确率:0.9029
+2021-02-03 15:58:23,445 - main.py[line:104] - INFO: 准确率统计时间:169929毫秒;169秒
+2021-02-03 15:58:23,445 - main.py[line:105] - INFO: 
+
+
+2021-02-03 15:58:23,445 - main.py[line:110] - INFO: --------------------------------------------
+2021-02-03 15:58:23,445 - main.py[line:69] - INFO: 生成词向量文件
+2021-02-03 15:58:23,445 - main.py[line:70] - INFO: 生成词向量参数WordVectorParam:{'sentences': None, 'corpus_file': None, 'size': 100, 'window': 5, 'min_count': 5, 'sg': 0, 'cbow_mean': 1, 'hs': 0, 'negative': 5, 'ns_exponent': 0.5, 'iter': 5, 'alpha': 0.025, 'min_alpha': 0.0001, 'hashfxn': <built-in function hash>, 'null_word': 0, 'trim_rule': None, 'sorted_vocab': 1, 'workers': 3, 'batch_words': 10000, 'max_final_vocab': None, 'max_vocab_size': None, 'seed': 1, 'sample': 0.001, 'compute_loss': False, 'callbacks': ()}
+2021-02-03 15:58:38,003 - main.py[line:75] - INFO: 生成词向量文件时间:14558毫秒;14秒
+2021-02-03 15:58:38,003 - main.py[line:76] - INFO: 
+
+
+2021-02-03 15:58:38,095 - main.py[line:84] - INFO: 训练模型
+2021-02-03 16:44:50,958 - main.py[line:91] - INFO: 训练模型时间:2772860毫秒;2772秒;模型文件大小:835925106
+2021-02-03 16:44:50,958 - main.py[line:92] - INFO: 
+
+
+2021-02-03 16:44:50,958 - main.py[line:96] - INFO: 准确率统计
+2021-02-03 16:44:50,958 - main.py[line:97] - INFO: sequenceLength=200
